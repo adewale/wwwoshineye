@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+Don't reset margins, etc for the following tags:
+= body
+= h1
+= h2
+= p
+*/
+html, div, span, applet, object, iframe,
+h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***
+Reset ends
+***/
+
+body {
+  font-family: "chaparral-pro-1","chaparral-pro-2", serif;
+  font-size:150%;
+  line-height:1.125em; /* 16×1.125=18 */
+  background-color: #fff;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:visited {
+  /* For security reasons you can't set text-decoration on a:visited because it can be read back from the DOM*/
+}
+
+a:hover {
+  color: #7f0000;
+}
+
+h2 a {
+  /* Navigation links should contrast with the background*/
+  color: #7f0000;
+}
+
+h2 a:hover {
+  /* Turn a contrasting colour on hover*/
+  color: #000;
+}
+
+p {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.15em;
+  
+  /* Text should never be wider than this since it would become hard to read */
+  max-width: 33em;
+}
+
+h1 {
+  font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+  color: #fff;
+  /*background-color: #B8CC8F;*/
+  background-color: #7f0000;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+  padding-left: 0.15em;
+  padding-top: 0.25em;
+	font-weight: normal;
+	/*border-bottom: 0.15em solid #738059;*/
+	text-transform: uppercase;
+}
+
+section h1 {
+  margin-bottom: 0.25em;
+  color: #7f0000;
+  background-color: #fff;
+  border-bottom: 0.15em solid #000;
+}
+
+h2 {
+  font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+	margin-top: 0;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+	font-weight: normal;
+}
+
+ul {
+  margin-top: 0.5em;
+  border-width: 1px;
+	border-style: solid;
+	border-color: #7f0000;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+	display:block;
+}
+
+li {
+  margin-left: 0.5em;
+  text-indent: 0.25em;
+  list-style: square inside;
+}
+
+#navigation li {
+  margin-left: 0em;
+  margin-bottom: -1em;
+  list-style-type: none;
+}
+
+#presentations li {
+  /* This list is actually a list but adding bullet points next to an embed looks ugly */
+  list-style-type: none;
+}
+
+section {
+  padding-bottom: 1.25em;
+}
+
+#container {
+  margin: 1em auto;
+  width: 100%;
+}
+
+#nascar {
+  float: right;
+  clear: both;
+  width: 100%;
+  padding-top: 0.5em;
+  text-align: right;
+  margin: 0;
+  padding-right: 1em;
+  margin-bottom:0;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    background: white;
+  }
+}
+
+@media all and (min-width: 1068px) {
+  #container {
+    margin: 0 auto;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  #content {
+    float: left;
+    /* This negative margin (2/3 or 33ems which is the max line lenght for paragraphs) ensures the nav is at the top for long pages like books.html
+    See: http://www.alistapart.com/articles/negativemargins/ for details*/
+    margin-right: -22em;
+  }
+  
+  #navigation {
+    /* This negative margin-top is needed to offset the 0.5em of margin-top that the ul has*/
+    margin-top: -1.0em;
+    float: right;
+    border-left: 0.15em solid #7f0000;
+  }
+  
+  ul {
+    border-bottom: 0;
+  }
+}
