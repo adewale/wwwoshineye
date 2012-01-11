@@ -175,6 +175,12 @@ section {
   margin-bottom:0;
 }
 
+#launch_days {
+  font-family: "chaparral-pro-1","chaparral-pro-2", serif;
+  font-size:350%;
+}
+
+/* Media queries begin from here */
 @media all and (min-width: 768px) {
   body {
     background: white;

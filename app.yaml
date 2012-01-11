@@ -17,6 +17,10 @@ handlers:
   static_files: static/\1.html
   upload: static/(about|books|photos|presentations|search|software|google53de00654ebd3aa1)\.html
 
+# This is the folder of pages pointing to experiments
+- url: /x
+  static_dir: static/x
+
 - url: /humans.txt
   static_files: static/humans.txt
   upload: static/humans.txt
