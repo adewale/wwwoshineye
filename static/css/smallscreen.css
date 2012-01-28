@@ -139,7 +139,6 @@ ul {
 }
 
 li {
-  margin-left: 0.5em;
   text-indent: 0.25em;
   list-style: square inside;
 }
@@ -178,6 +177,11 @@ section {
 #launch_days {
   font-family: "chaparral-pro-1","chaparral-pro-2", serif;
   font-size:350%;
+}
+
+#photo {
+	box-shadow: 0 0 65px #000 inset, 0 0 20px #000 inset, 0 0 5px #000;
+	/* Based on tutorial from: http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow */
 }
 
 /* Media queries begin from here */
