@@ -66,7 +66,6 @@ body {
 
 a {
   color: #000;
-  text-decoration: underline;
 }
 
 a:visited {
@@ -100,14 +99,12 @@ p {
 h1 {
   font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
   color: #fff;
-  /*background-color: #B8CC8F;*/
   background-color: #7f0000;
 	margin-top: 0.1em;
 	margin-bottom: 0.1em;
   padding-left: 0.15em;
   padding-top: 0.25em;
 	font-weight: normal;
-	/*border-bottom: 0.15em solid #738059;*/
 	text-transform: uppercase;
 }
 
@@ -115,7 +112,9 @@ section h1 {
   margin-bottom: 0.25em;
   color: #7f0000;
   background-color: #fff;
-  border-bottom: 0.15em solid #000;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0 0 1px 1px;
 }
 
 h2 {
@@ -127,14 +126,15 @@ h2 {
 	font-weight: normal;
 }
 
-ul {
-  margin-top: 0.5em;
-  border-width: 1px;
+nav {
+	margin-top: 0.01em;
+	margin-bottom: 1em;
 	border-style: solid;
 	border-color: #7f0000;
-	border-top:1px;
-	border-left:1px;
-	border-right:1px;
+	border-width: 1px 0 1px 0;
+}
+
+ul {
 	display:block;
 }
 
@@ -143,10 +143,24 @@ li {
   list-style: square inside;
 }
 
-#navigation li {
-  margin-left: 0em;
-  margin-bottom: -1em;
+#badges {
+	margin-left: 0.5em;
+}
+
+#menu li {
   list-style-type: none;
+	display: inline;
+	font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+	margin-top: 0;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+	font-weight: normal;
+	border-right: 1em;
+}
+
+#menu li a {
+		text-decoration: none;
 }
 
 #presentations li {
@@ -158,22 +172,6 @@ section {
   padding-bottom: 1.25em;
 }
 
-#container {
-  margin: 1em auto;
-  width: 100%;
-}
-
-#nascar {
-  float: right;
-  clear: both;
-  width: 100%;
-  padding-top: 0.5em;
-  text-align: right;
-  margin: 0;
-  padding-right: 1em;
-  margin-bottom:0;
-}
-
 #launch_days {
   font-family: "chaparral-pro-1","chaparral-pro-2", serif;
   font-size:350%;
@@ -182,40 +180,4 @@ section {
 #photo {
 	box-shadow: 0 0 65px #000 inset, 0 0 20px #000 inset, 0 0 5px #000;
 	/* Based on tutorial from: http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow */
-}
-
-/* Media queries begin from here */
-@media all and (min-width: 768px) {
-  body {
-    background: white;
-  }
-}
-
-@media all and (min-width: 1068px) {
-  #container {
-    margin: 0 auto;
-    padding: 0 0.75em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  #content {
-    float: left;
-    /* This negative margin (2/3 or 33ems which is the max line lenght for paragraphs) ensures the nav is at the top for long pages like books.html
-    See: http://www.alistapart.com/articles/negativemargins/ for details*/
-    margin-right: -22em;
-  }
-  
-  #navigation {
-    /* This negative margin-top is needed to offset the 0.5em of margin-top that the ul has*/
-    margin-top: -1.0em;
-    float: right;
-    border-left: 0.15em solid #7f0000;
-  }
-  
-  ul {
-    border-bottom: 0;
-  }
 }
