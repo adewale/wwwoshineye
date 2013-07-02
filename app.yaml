@@ -21,6 +21,10 @@ handlers:
 - url: /x
   static_dir: static/x
 
+- url: /subscriptions.xml
+  static_files: static/subscriptions.xml
+  upload: static/subscriptions.xml
+
 - url: /humans.txt
   static_files: static/humans.txt
   upload: static/humans.txt
