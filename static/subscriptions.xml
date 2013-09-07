@@ -18,5 +18,7 @@
 		<outline text="Think Outside In" title="Think Outside In" type="rss" xmlUrl="http://www.thinkoutsidein.com/blog/feed/atom/" htmlUrl="http://www.thinkoutsidein.com/blog"/>
 		<outline text="this is aaronland" title="this is aaronland" type="rss" xmlUrl="http://www.aaronland.info/weblog/syndication/atom-1.0.xml" htmlUrl="http://www.aaronland.info/weblog"/>
 		<outline text="Unlink Your Feeds" title="Unlink Your Feeds" type="rss" xmlUrl="http://unlinkyourfeeds.tumblr.com/rss" htmlUrl="http://unlinkyourfeeds.tumblr.com/"/>
+		<outline text="Programming Is Terrible" title="Programming Is Terrible" type="rss" xmlUrl="http://programmingisterrible.com/rss" htmlUrl="http://programmingisterrible.com"/>
+		<outline text="Timoni West" title="Timoni West" type="rss" xmlUrl="http://blog.timoni.org/rss" htmlUrl="http://blog.timoni.org/"/>
 	</body>
 </opml>
