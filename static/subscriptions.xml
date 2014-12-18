@@ -20,5 +20,12 @@
 		<outline text="Unlink Your Feeds" title="Unlink Your Feeds" type="rss" xmlUrl="http://unlinkyourfeeds.tumblr.com/rss" htmlUrl="http://unlinkyourfeeds.tumblr.com/"/>
 		<outline text="Programming Is Terrible" title="Programming Is Terrible" type="rss" xmlUrl="http://programmingisterrible.com/rss" htmlUrl="http://programmingisterrible.com"/>
 		<outline text="Timoni West" title="Timoni West" type="rss" xmlUrl="http://blog.timoni.org/rss" htmlUrl="http://blog.timoni.org/"/>
+		<outline text="Benedict Evans" title="Benedict Evans" type="rss" xmlUrl="http://ben-evans.com/benedictevans?format=rss" htmlUrl="http://ben-evans.com"/>
+		<outline text="Minimally Minimal" title="Minimally Minimal" type="rss" xmlUrl="http://www.minimallyminimal.com/blog?format=rss" htmlUrl="http://www.minimallyminimal.com/blog"/>
+		<outline text="programming in the twenty-first century" title="programming in the twenty-first century" type="rss" xmlUrl="http://prog21.dadgum.com/atom.xml" htmlUrl="http://prog21.dadgum.com"/>
+		<outline text="jmoiron" title="jmoiron" type="rss" xmlUrl="http://jmoiron.net/blog/atom" htmlUrl="http://jmoiron.net/blog/"/>
+		<outline text="Stratechery" title="Stratechery" type="rss" xmlUrl="hhttp://stratechery.com/feed/" htmlUrl="http://stratechery.com/"/>
+		
+		
 	</body>
 </opml>
