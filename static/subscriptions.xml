@@ -24,7 +24,8 @@
 		<outline text="Minimally Minimal" title="Minimally Minimal" type="rss" xmlUrl="http://www.minimallyminimal.com/blog?format=rss" htmlUrl="http://www.minimallyminimal.com/blog"/>
 		<outline text="programming in the twenty-first century" title="programming in the twenty-first century" type="rss" xmlUrl="http://prog21.dadgum.com/atom.xml" htmlUrl="http://prog21.dadgum.com"/>
 		<outline text="jmoiron" title="jmoiron" type="rss" xmlUrl="http://jmoiron.net/blog/atom" htmlUrl="http://jmoiron.net/blog/"/>
-		<outline text="Stratechery" title="Stratechery" type="rss" xmlUrl="hhttp://stratechery.com/feed/" htmlUrl="http://stratechery.com/"/>
+		<outline text="Stratechery" title="Stratechery" type="rss" xmlUrl="http://stratechery.com/feed/" htmlUrl="http://stratechery.com/"/>
+		<outline text="Naveen" title="Naveen" type="rss" xmlUrl="http://x.naveen.com/rss" htmlUrl="http://x.naveen.com/"/>
 		
 		
 	</body>
