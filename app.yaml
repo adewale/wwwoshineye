@@ -1,6 +1,6 @@
-application: wwwoshineye
+application: wwwoshineye2
 version: 1
-runtime: python
+runtime: python27
 api_version: 1
 threadsafe: no
 
