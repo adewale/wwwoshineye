@@ -26,6 +26,9 @@
 		<outline text="jmoiron" title="jmoiron" type="rss" xmlUrl="http://jmoiron.net/blog/atom" htmlUrl="http://jmoiron.net/blog/"/>
 		<outline text="Stratechery" title="Stratechery" type="rss" xmlUrl="http://stratechery.com/feed/" htmlUrl="http://stratechery.com/"/>
 		<outline text="Naveen" title="Naveen" type="rss" xmlUrl="http://x.naveen.com/rss" htmlUrl="http://x.naveen.com/"/>
+		<outline text="Plasmasturm" title="Plasmasturm" type="rss" xmlUrl="http://plasmasturm.org/feeds/plasmasturm/" htmlUrl="http://plasmasturm.org"/>
+		<outline text="djb" title="djb" type="rss" xmlUrl="hhttp://blog.cr.yp.to/feed.application=xml" htmlUrl="http://blog.cr.yp.to/"/>
+		<outline text="ignore the code" title="ignore the code" type="rss" xmlUrl="http://ignorethecode.net/blog/rss/" htmlUrl="http://ignorethecode.net/blog/"/>
 		
 		
 	</body>
