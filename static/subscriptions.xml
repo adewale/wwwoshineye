@@ -29,6 +29,7 @@
 		<outline text="djb" title="djb" type="rss" xmlUrl="hhttp://blog.cr.yp.to/feed.application=xml" htmlUrl="http://blog.cr.yp.to/"/>
 		<outline text="ignore the code" title="ignore the code" type="rss" xmlUrl="http://ignorethecode.net/blog/rss/" htmlUrl="http://ignorethecode.net/blog/"/>
 		<outline text="Bruce Eckel" title="Bruce Eckel" type="rss" xmlUrl="http://bruceeckel.github.io/atom.xml" htmlUrl="http://bruceeckel.github.io"/>
-		<outline text="The Tao Of Mac" title="The Tao Of Mac" type="rss" xmlUrl="http://taoofmac.com/feed" htmlUrl="http://taoofmac.com/"/>		
+		<outline text="The Tao Of Mac" title="The Tao Of Mac" type="rss" xmlUrl="http://taoofmac.com/feed" htmlUrl="http://taoofmac.com/"/>
+		<outline text="Subtraction" title="Subtraction" type="rss" xmlUrl="https://www.subtraction.com/feed/" htmlUrl="https://www.subtraction.com"/>
 	</body>
 </opml>
