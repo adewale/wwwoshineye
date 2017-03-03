@@ -31,5 +31,7 @@
 		<outline text="Bruce Eckel" title="Bruce Eckel" type="rss" xmlUrl="http://bruceeckel.github.io/atom.xml" htmlUrl="http://bruceeckel.github.io"/>
 		<outline text="The Tao Of Mac" title="The Tao Of Mac" type="rss" xmlUrl="http://taoofmac.com/feed" htmlUrl="http://taoofmac.com/"/>
 		<outline text="Subtraction" title="Subtraction" type="rss" xmlUrl="https://www.subtraction.com/feed/" htmlUrl="https://www.subtraction.com"/>
+		<outline text="Will Larson" title="Will Larson" type="rss" xmlUrl="http://lethain.com/feeds/" htmlUrl="http://lethain.com/"/>
+		<outline text="Rands in Repose" title="Rands in Repose" type="rss" xmlUrl="http://randsinrepose.com/feed/" htmlUrl="http://randsinrepose.com/"/>
 	</body>
 </opml>
