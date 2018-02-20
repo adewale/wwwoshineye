@@ -34,6 +34,10 @@ handlers:
   static_files: static/favicon.ico
   upload: static/favicon.ico
 
+- url: /manifest\.json
+  static_files: static/manifest.json
+  upload: static/manifest.json
+
 # This ensures that / renders /theAbode.html but does not do a redirect
 - url: (/theAbode.html|/)
   script: main.py

@@ -1,0 +1,21 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Oshineye.com",
+  "short_name": "Oshineye.com",
+  "description": "The personal site of Ade Oshineye",
+  "scope": "/",
+  "display": "browser",
+  "orientation": "any",
+  "start_url": "/",
+  "theme_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "background_color": "transparent",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32"
+    }
+  ]
+}
