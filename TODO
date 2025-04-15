@@ -1,6 +1,7 @@
 # Things to do
 
-- Migrate to Go
+- Fix search.html
+- Add a /uses/ or equivalent that showcases the updated version of my Uses This interview.
 - Add HTTPS support
 - Add a manifest
 - Use a service worker to cache webfonts
