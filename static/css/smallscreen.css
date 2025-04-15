@@ -140,6 +140,11 @@ ul {
 	display:block;
 }
 
+/* Add space after all unordered lists except in the navigation */
+ul:not(#menu) {
+    margin-bottom: 1em;
+}
+
 li {
   text-indent: 0.25em;
   list-style: square inside;
