@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<title>Ade subscriptions in Google Reader</title>
+	</head>
+	<body>
+		<outline text="trenchant.tumblr" title="trenchant.tumblr" type="rss" xmlUrl="http://trenchant.tumblr.com/rss" htmlUrl="http://trenchant.tumblr.com/"/>
+		<outline text="Trivium" title="Trivium" type="rss" xmlUrl="http://chneukirchen.org/trivium/index.atom" htmlUrl="http://chneukirchen.org/trivium/"/>
+		<outline text="Diesel Sweeties by R Stevens" title="Diesel Sweeties by R Stevens" type="rss" xmlUrl="http://www.dieselsweeties.com/ds-unifeed.xml" htmlUrl="http://dieselsweeties.com"/>
+		<outline text="Monday Note" title="Monday Note" type="rss" xmlUrl="https://mondaynote.com/feed" htmlUrl="http://www.mondaynote.com"/>
+		<outline text="A Working Library: All" title="A Working Library: All" type="rss" xmlUrl="http://aworkinglibrary.com/library/rss_all/" htmlUrl="http://www.aworkinglibrary.com"/>
+		<outline text="al3x" title="al3x" type="rss" xmlUrl="http://al3x.net/atom.xml" htmlUrl="http://al3x.net/"/>
+		<outline text="All Things Distributed" title="All Things Distributed" type="rss" xmlUrl="http://www.allthingsdistributed.com/atom.xml" htmlUrl="http://www.allthingsdistributed.com/"/>
+		<outline text="asymco" title="asymco" type="rss" xmlUrl="http://www.asymco.com/feed/" htmlUrl="http://www.asymco.com"/>
+		<outline text="Bill de hÓra" title="Bill de hÓra" type="rss" xmlUrl="http://www.dehora.net/journal/atom.xml" htmlUrl="http://dehora.net/atom.xml"/>
+		<outline text="BitWorking | Joe Gregorio" title="BitWorking | Joe Gregorio" type="rss" xmlUrl="http://bitworking.org/news/feed/" htmlUrl="http://bitworking.org/"/>
+		<outline text="The Late Greats Music Blog" title="The Late Greats Music Blog" type="rss" xmlUrl="http://dukeofstraw.com/lategreats/?feed=rss2" htmlUrl="http://dukeofstraw.com/lategreats"/>
+		<outline text="this is aaronland" title="this is aaronland" type="rss" xmlUrl="http://www.aaronland.info/weblog/syndication/atom-1.0.xml" htmlUrl="http://www.aaronland.info/weblog"/>
+		<outline text="Unlink Your Feeds" title="Unlink Your Feeds" type="rss" xmlUrl="http://unlinkyourfeeds.tumblr.com/rss" htmlUrl="http://unlinkyourfeeds.tumblr.com/"/>
+		<outline text="Programming Is Terrible" title="Programming Is Terrible" type="rss" xmlUrl="http://programmingisterrible.com/rss" htmlUrl="http://programmingisterrible.com"/>
+		<outline text="Timoni West" title="Timoni West" type="rss" xmlUrl="http://blog.timoni.org/rss" htmlUrl="http://blog.timoni.org/"/>
+		<outline text="Benedict Evans" title="Benedict Evans" type="rss" xmlUrl="http://ben-evans.com/benedictevans?format=rss" htmlUrl="http://ben-evans.com"/>
+		<outline text="Minimally Minimal" title="Minimally Minimal" type="rss" xmlUrl="http://www.minimallyminimal.com/blog?format=rss" htmlUrl="http://www.minimallyminimal.com/blog"/>
+		<outline text="programming in the twenty-first century" title="programming in the twenty-first century" type="rss" xmlUrl="http://prog21.dadgum.com/atom.xml" htmlUrl="http://prog21.dadgum.com"/>
+		<outline text="jmoiron" title="jmoiron" type="rss" xmlUrl="http://jmoiron.net/blog/atom" htmlUrl="http://jmoiron.net/blog/"/>
+		<outline text="Stratechery" title="Stratechery" type="rss" xmlUrl="http://stratechery.com/feed/" htmlUrl="http://stratechery.com/"/>
+		<outline text="Naveen" title="Naveen" type="rss" xmlUrl="http://x.naveen.com/rss" htmlUrl="http://x.naveen.com/"/>
+		<outline text="Plasmasturm" title="Plasmasturm" type="rss" xmlUrl="http://plasmasturm.org/feeds/plasmasturm/" htmlUrl="http://plasmasturm.org"/>
+		<outline text="djb" title="djb" type="rss" xmlUrl="hhttp://blog.cr.yp.to/feed.application=xml" htmlUrl="http://blog.cr.yp.to/"/>
+		<outline text="ignore the code" title="ignore the code" type="rss" xmlUrl="http://ignorethecode.net/blog/rss/" htmlUrl="http://ignorethecode.net/blog/"/>
+		<outline text="Bruce Eckel" title="Bruce Eckel" type="rss" xmlUrl="http://bruceeckel.github.io/atom.xml" htmlUrl="http://bruceeckel.github.io"/>
+		<outline text="The Tao Of Mac" title="The Tao Of Mac" type="rss" xmlUrl="http://taoofmac.com/feed" htmlUrl="http://taoofmac.com/"/>
+		<outline text="Subtraction" title="Subtraction" type="rss" xmlUrl="https://www.subtraction.com/feed/" htmlUrl="https://www.subtraction.com"/>
+		<outline text="Will Larson" title="Will Larson" type="rss" xmlUrl="http://lethain.com/feeds/" htmlUrl="http://lethain.com/"/>
+		<outline text="Rands in Repose" title="Rands in Repose" type="rss" xmlUrl="http://randsinrepose.com/feed/" htmlUrl="http://randsinrepose.com/"/>
+	</body>
+</opml>

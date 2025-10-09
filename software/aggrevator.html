@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head><title>The Abode::Aggrevator</title>
+	<link href="../css/abode.css" rel="stylesheet" type="text/css">
+	<script language="JavaScript1.2" src="../js/abodeUtils.js" type="text/javascript">
+	<!--
+	//load various utility functions
+	-->
+	</script>
+</head>
+<body>
+
+
+<!-- titleImageHolder
+<script language="Javascript1.2" type="text/javascript">
+	printHead();
+</script>-->
+
+<!-- mainStructureHolder-->
+<table width="100%" align="center">
+	<tr>
+	<!-- column1-->
+	<td valign="top">
+		<!-- bodyTextHolder-->
+		<table width="100%" border="0" cellspacing="0" cellpadding="2" class="borderedTable">
+			<tr align="left">
+						<th>The Abode::Aggrevator</th>
+					</tr>
+					<tr>
+						<td bgcolor="#FFFFFF">
+						<!--Section specific text goes here -->
+						<div class="mainText">
+						<p>
+						Aggrevator is a cross-platform RSS/Atom aggregator that uses a MySQL 4.1 database for storage. It is designed to make life easier for people who want to subscribe to large numbers of blogs by using scoring, sophisticated search, filtering and sorting.<br></br>
+	
+
+Aggrevator's chief distinguishing factor is it's use of a MySql database to permanently store every entry fetched from every blog you subscribe to. This means that the user can read offline any of the several thousand blogs they're interested in. Since Aggrevator is written in Java using the SWT library for it's GUI the user can use it on multiple platforms (I have tested it using Linux and Windows) with a single remote database or on one machine with a local database.<br></br>
+
+None of the existing desktop aggregators deal well with users who want to subscribe to thousands of feeds (I'm testing it with over 5000 feeds and a database containing over 500, 000 entries). Aggrevator offers those people effective and unobtrusive ways to use scoring to rank the blogs they read. The embedded browser means that the user can easily follow links between individual entries and the application will automatically increase the score of the blogs that are visited. The user can also choose to give a 'thumbs up' or 'thumbs down' to individual entries. Over time this 'simple' scoring means that blogs that the user reads often and rates highly float to the top of the list.<br></br>
+
+Aggrevator offers the user search functionality which lets them track down entries they have read in the past even if they're offline. The user also has the option of using the filters as a means of finding a particular blog by typing a minimal set of characters and seeing the list of candidates shrink as they type each character.<br></br>
+
+						<b>What problems does Aggrevator solve for me?</b>
+						<ul>
+							<li>Are you finding it difficult to manage the large number of blogs you have subscribed to?</li>
+							<li>Do you feel overwhelmed when it comes to deciding which blog to read first?</li>
+							<li>Do you need to find an article somebody posted a while ago but can't remember which of the many blogs you've subscribed to it was in?</li>
+						</ul>
+						
+						<br></br>
+						
+						<b>What's new?</b>
+						<ul>
+						<i>0.7.6</i>
+						<li>Changed html used for "Related entries" to avoid repeatedly pulling down an image from Technorati's server for each entry.</li>
+						
+						<i>0.7.5 (never publicly released)</i>
+						<li>Tweaked the html used for the internal browser to be prettier.</li>
+						<li>Added a Related entries feature that links entries to Technorati.</li>
+						<li>Added lazy loading support to the configuration.properties so that the content of entries can either be loaded for all entries when the user selects a feed or only when the user selects a particular entry.</li>
+						<li>Added support for the user to specify proxy host and port in the configuration.properties file.</li>
+						<li>Reverted back to using the ProxoolConnectionPool after Carlos had performance issues with the C3P0ConnectionPool.</li>
+						<i>0.7.0</i>
+						<li><i>Fixed a problem with the Linux release that meant it couldn't be started.</i></li>
+						<li>Searches can be restricted by the titles of the feed or entries.</li>
+						<li>Searching can now be cancelled.</li>
+						<li>Changed the command keys to use Ctrl-Shift+ F/E/B to switch between the FeedView/EntryView/BrowserView.</li>
+						<li>The current entry or the current location can now be opened in the user's default web browser.</li>
+						<li>It's now possible to create feedster search feeds. These are feeds that can be used to track when a particular word or phrase such as "Aggrevator" is mentioned in one of the millions of blogs that <a href="http://www.feedster.com">Feedster.com</a> indexes.</li>
+						<li>Added cache file that should improve start-up times for users with a large number (e.g greater than 500, 000) of entries</li>
+						</ul>
+						</p>
+						
+						<p>
+						<a href="aggrevator.png"><img src="aggrevator_thumbnail.png"></img></a>
+						</p>
+						
+						<p>
+						Aggrevator 0.7.6<br></br>
+						<a href="http://prdownloads.sourceforge.net/aggrevator/aggrevator-windows-0.7.6.zip?download">Download Aggrevator for Windows</a><br></br>
+						<a href="http://prdownloads.sourceforge.net/aggrevator/aggrevator-linux-0.7.6.zip?download">Download Aggrevator for Linux</a><br></br>
+						<a href="http://prdownloads.sourceforge.net/aggrevator/aggrevator-source-0.7.6.zip?download">Download Aggrevator source code</a><br></br>
+						</p>
+				</div>
+				</td>
+			</tr>
+		</table>
+	</td>
+	
+	<!-- Column2 -->
+	<td valign="top" align="right" width="20%">
+	<!--The navigation menu -->
+
+	<!-- The standard tail on each document. -->
+	<script language="JavaScript1.2" type="text/javascript">
+		printTail();
+	</script>
+	</td>
+  </tr>
+</table>
+
+<!--Navigation for those without javascript or who have it turned off-->
+<noscript>
+	<div class="mainText">
+		<h6>
+			<a href="../theAbode.html">Home</a> | <a href="../facets.html">Facets</a> | <a href="../texts.html">Texts</a> | <a href="../software.html">Software</a> | <a href="../javacert.html">SCPJ</a> | <a href="../books.html">Books</a> | <a href="../links.html">Links</a>
+		</h6>
+	</div>
+</noscript>
+</body>
+</html>

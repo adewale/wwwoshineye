@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+Don't reset margins, etc for the following tags:
+= body
+= h1
+= h2
+= p
+*/
+html, div, span, applet, object, iframe,
+h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***
+Reset ends
+***/
+
+body {
+  font-family: "chaparral-pro-1","chaparral-pro-2", serif;
+  font-size:150%;
+  line-height:1.125em; /* 16×1.125=18 */
+  background-color: #fff;
+  /*margin-left: 0.5em;
+  margin-right: 0.5em;*/
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  /* For security reasons you can't set text-decoration on a:visited because it can be read back from the DOM*/
+}
+
+a:hover {
+  color: #7f0000;
+}
+
+h2 a {
+  /* Navigation links should contrast with the background*/
+  color: #7f0000;
+}
+
+h2 a:hover {
+  /* Turn a contrasting colour on hover*/
+  color: #000;
+}
+
+p {
+  margin-top: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0.15em;
+  
+  /* Text should never be wider than this since it would become hard to read */
+  max-width: 33em;
+}
+
+h1 {
+  font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+  color: #fff;
+  background-color: #7f0000;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+  padding-left: 0.15em;
+  padding-top: 0.25em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+section h1 {
+  margin-bottom: 0.25em;
+  color: #7f0000;
+  background-color: #fff;
+	border-style: solid;
+	border-color: #000;
+	border-width: 0 0 1px 1px;
+}
+
+h2 {
+  font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+	margin-top: 0;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+	font-weight: normal;
+}
+
+nav {
+	margin-top: 0.01em;
+	margin-bottom: 1em;
+	border-style: solid;
+	border-color: #7f0000;
+	border-width: 1px 0 1px 0;
+}
+
+ul {
+	display:block;
+}
+
+/* Add space after all unordered lists except in the navigation */
+ul:not(#menu) {
+    margin-bottom: 1em;
+}
+
+li {
+  text-indent: 0.25em;
+  list-style: square inside;
+}
+
+#badges {
+	margin-left: 0.5em;
+}
+
+#menu li {
+  list-style-type: none;
+	display: inline;
+	font-family: "cronos-pro-1","cronos-pro-2", Helvetica;
+	margin-top: 0;
+  padding-bottom: 0.25em;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+	font-weight: normal;
+	border-right: 1em;
+}
+
+#menu li a {
+		text-decoration: none;
+}
+
+#presentations li {
+  /* This list is actually a list but adding bullet points next to an embed looks ugly */
+  list-style-type: none;
+}
+
+section {
+  padding-bottom: 1.25em;
+}
+
+#launch_days {
+  font-family: "chaparral-pro-1","chaparral-pro-2", serif;
+  font-size:350%;
+}
+
+#photo {
+	box-shadow: 0 0 65px #000 inset, 0 0 20px #000 inset, 0 0 5px #000;
+	/* Based on tutorial from: http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow */
+}
